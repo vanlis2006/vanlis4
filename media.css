@@ -1,0 +1,123 @@
+@media (max-width: 1200px){
+	body{
+		margin: 0;
+	}
+	.pageheader{
+		align-items: center;
+		flex-direction: column;
+		margin: 0;
+	}
+	.container{
+		width: 90%;
+		margin: 0;
+		
+	}
+	article{
+		width: 90%;
+		margin: 0;
+
+		
+	}
+	.galary{
+		margin: 0;
+	}
+	.hgalary{
+		flex-direction: column;
+	}
+	.hgalary:nth-child(2){
+		flex-direction: column-reverse;
+	}
+	iframe{
+		width: 90%;
+	}
+	.marketing{
+		width: 90%;
+	}
+	.ae{
+		display: flex;
+		flex-direction: column;
+	}
+	.menu-list{
+		text-align: center;
+		flex-direction: column;
+		margin: 0;
+		padding: 0;
+
+		
+
+
+	}
+	.menu{
+		width: 100%;
+	}
+	.menu-list li{
+		border-bottom: 1px black solid;
+		margin: 0;
+		width: 100%;
+		
+		
+	}
+	.menu-list a{
+		font-size: 25px;
+	}
+	h1{
+		font-size: 45px;
+	}
+	h2{
+	font-size:  28px;
+	
+	}
+	h3{
+	font-size:  24px;
+	}
+	.marketing p{
+	
+	font-size: 20px;
+	}
+	.transfer thead{
+		display: none;
+
+	} 
+	tr{
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+	}
+	th{
+		position: relative;
+		width: 30%;
+		margin: 0 -1px -1px 0;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		
+
+	}
+	span{
+		display: block;
+		width: 100%;
+		background-color: #87CEEB;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.transfer{
+		width: 90%;
+		justify-content: center;
+	}
+	.pagefooter{
+	align-items: center;
+	flex-direction: column;
+	width: 90%;
+	
+	}
+	.social{
+		margin: 10px;
+	}
+	.copyright{
+		font-size: 18px;
+	}
+	.fonfooter{
+		width: 100%;
+		margin: 0 auto;
+	}
+}

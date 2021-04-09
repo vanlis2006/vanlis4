@@ -1,0 +1,196 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.container{
+	
+	margin: 0 auto;
+	width: 1200px; 
+}
+article{
+	margin: 0 auto;
+	width: 1200px;
+}
+.pageheader{
+	margin-top: 10px;
+	display: flex;
+
+}
+.menu{
+	flex-grow: 1;
+}
+.menu-list{
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+
+
+}
+.menu-list a{
+	font-size: 30px;
+	line-height: 40px;
+
+}
+.menu-list a:hover{
+	color:#40E0D0 
+}
+.pagefooter{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 35px 0;
+	
+}
+.social {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+
+}
+.hastag{
+	margin: 0;
+	padding: 0;
+	font-size: 21px; 
+	line-height: 26px;
+	font-weight: 400px;
+}
+.copyright{
+	margin: 0;
+	padding: 0;
+	font-size: 21px; 
+	line-height: 26px;
+	font-weight: 400px;
+}
+ .social  li{
+	margin: 0 10px;
+
+	
+}
+.fonfooter{
+	background-color: #3CB371;
+}
+.slogan{
+	height: 558px;
+	background-image:url(innsbruck1.png);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+h2{
+	font-size:  36px;
+	color: blue;
+}
+h3{
+	font-size:  30px;
+}
+h1{
+	color: white;
+	font-size: 60px;
+	padding-top:  250px ;
+	margin: 0;
+	
+
+}
+.ae{
+	display: flex;
+	justify-content: space-between;
+}
+.marketing{
+	background-image:url(skier.png);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center right;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+
+}
+.nomberlist{
+	list-style: none;
+
+}
+.nomberlist li:before{
+content: "✓";
+}
+.marketing p{
+	line-height: 33px;
+	font-size: 25px; 
+}
+.marketing a{
+ align-self: flex-end;
+ background-color: white;
+ color: black;
+ opacity: 0.7;
+ padding: 5px;
+}
+figcaption{
+	text-align: center;
+	background-color: grey;
+	color :white;
+	padding: 10px;
+	font-size: 25px;
+}
+.figure{
+	border: 1px grey solid;
+	display: flex;
+	flex-direction: column;
+
+
+}
+.ggalary { 
+	display: flex; 
+	flex-direction: column; 
+	margin: 0; 
+	padding: 0; 
+	
+} 
+
+
+.hgalary{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background-color: #3CB371;
+	margin: 0;
+	padding: 0; 
+	min-height: 256px;
+	flex-direction: row;
+	margin-bottom: 10px; 
+
+
+}
+	
+.hgalary h3 {
+	text-transform: uppercase;
+	flex-grow:1;
+}
+.transfer{
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-bottom: 10px;
+
+
+}
+th, td{
+	border: 1px black solid;
+	padding:0 20px ;
+}
+thead{
+	background-color: darkblue ;
+	color: white;
+}
+tbody{
+	
+}
+span{
+	display: none;
+}
